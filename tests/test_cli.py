@@ -1,7 +1,8 @@
 import pytest
+
 from pgbackup import cli
 
-url = "postgres://macog:x8bR7tre@34.219.210.108:80/db_one"
+url = "postgres://macog:x8bR7tre@54.212.65.13:80/db_one"
 
 def test_parser_without_driver():
     """
